@@ -11,8 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node: [ 14, 16, 18 ]
-    name: Node ${{ matrix.node }} sample
+        node-version: [18.x, 20.x, latest]
 
     steps:
     - uses: actions/checkout@v2

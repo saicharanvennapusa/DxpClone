@@ -1,0 +1,13 @@
+.adjustt {
+width: 25%;
+height: 8rem ;
+
+}
+
+.adjustt :hover{
+    border : 1px solid blue;
+}
+
+.adjustt:hover .ch{
+    border: none !important;
+}
